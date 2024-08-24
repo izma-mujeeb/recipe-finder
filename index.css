@@ -1,0 +1,130 @@
+@import url('https://fonts.cdnfonts.com/css/baloo-chettan');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #AAD3D1; 
+    height: 50vh;
+    text-align: center;  
+}
+h1 {
+    font-family: 'Baloo Chettan', sans-serif;
+    font-size: 45px;
+}
+input {
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    width: 240px;
+    background-color: #698583;
+}
+::placeholder {
+    color: whitesmoke;
+    opacity: 1; /* Firefox */
+}
+  
+#btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px gray solid;
+    width: 150px;
+    cursor: pointer;
+    background-color: #C2E1E0; 
+}
+h4 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    color: #3C605E;
+}
+
+.content {
+    width: 290px;
+    position: relative;
+    text-align: center;
+    display: inline-grid;
+    
+}
+
+img {
+    margin: auto;
+    position: relative;
+    width: 110px;
+    height: 85px;
+    z-index: 20;
+    border-radius: 10px;
+}
+
+.posting, .ingredients {
+    border: 0.01rem gray solid;
+    width: 290px;
+    position: relative;
+    z-index: 10;
+    margin-top: -40px;
+    border-radius: 10px;
+    padding-top: 5px;
+    height: 320px; 
+}
+
+.posting:hover {
+    box-shadow: 10px 10px 5px #E5EAEA;
+}
+
+
+.content h6 {
+    font-family: sans-serif;
+    color: #4A6363;
+    font-size: 0.9rem;
+}
+
+.posting #viewIngredients, .posting #ingred {
+    border: 1px gray solid;
+    background-color: white;
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.addStyle {
+    border: 1px gray solid;
+    background-color: white;
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+}
+.posting #viewIngredients:hover, .posting #ingred:hover{
+    background-color: #E5EAEA;
+}
+
+.ingredients img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: -180px;
+}
+
+#name, .h2 {
+    background-color:#D7ECEC;
+    border-radius: 15px 15px 0px 0px;
+    margin: 5px;
+    padding: 35px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    color: #3C605E; 
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    margin-top: 70px;
+    margin-right: -130px;
+    cursor: pointer;
+}
+
+
+
+
+
+
